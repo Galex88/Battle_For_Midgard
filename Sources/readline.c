@@ -5,6 +5,9 @@
   allouée (pensez a free()).
 */
 
+#include	<stdlib.h>
+#include	<unistd.h>
+
 char		*readLine()
 {
   ssize_t	ret;
